@@ -12,6 +12,7 @@ body {
     grid-template-columns: 1fr 2fr;
     font-family: 'Arapey', serif, Arial, Helvetica, sans-serif;
     margin: 10vh;
+    color: rgb(20, 20, 24);
 }
 /******************
 Layout for Pages
@@ -26,6 +27,7 @@ h2 {
 }
 
 section {
+    position: relative;
     background-color: rgb(245, 245, 245);
     border: solid rgba(0, 0, 0, 0.054) 1px;
     box-shadow:-2px 2px 5px rgba(0, 0, 0, 0.245);
@@ -42,6 +44,13 @@ section {
 }
 p {
     margin-block-start: 0;
+}
+
+.page-number {
+    position: absolute;
+    margin-block-end: 0;
+    bottom: 25px;
+    right: 3rem;
 }
 
 /*********************
@@ -68,6 +77,6 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: rgb(20, 20, 24);
     font-size: 1.5rem;
 }
