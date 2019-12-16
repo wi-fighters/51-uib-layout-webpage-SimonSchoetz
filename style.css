@@ -19,7 +19,8 @@ Layout for Pages
 ******************/
 h1 {
     text-align: right;
-    margin: 0 0 2rem
+    margin: 0 0 4rem;
+    line-height:1;
 }
 h2 {
     font-size: 1.5rem;
