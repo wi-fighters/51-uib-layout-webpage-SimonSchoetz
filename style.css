@@ -13,24 +13,23 @@ body {
     font-family: 'Arapey', serif, Arial, Helvetica, sans-serif;
     margin: 10vh;
 }
-
+/******************
+Layout for Pages
+******************/
+h1 {
+    text-align: right;
+    margin: 0 0 2rem
+}
 h2 {
     font-size: 1.5rem;
-    margin:  0;
-}
-h1, h2 {
-    margin-bottom: 1rem;
-}
-
-nav {
-    position: fixed;
+    margin:  0 0 1rem;
 }
 
 section {
     background-color: rgb(245, 245, 245);
     border: solid rgba(0, 0, 0, 0.054) 1px;
     box-shadow:-2px 2px 5px rgba(0, 0, 0, 0.245);
-    padding: 50px;
+    padding: 3rem;
     margin-bottom: 30px;
     
     /*Width & height of a DINA4 sheet at 150ppi*/
@@ -41,8 +40,34 @@ section {
     width: 595px;
     height: 842px;
 }
-
 p {
     margin-block-start: 0;
 }
 
+/*********************
+Layout for Navigation
+*********************/
+nav {
+    position: fixed;
+}
+h3 {
+    margin: 0;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav li {
+    margin: .5rem 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
