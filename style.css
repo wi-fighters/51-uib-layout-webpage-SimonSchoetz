@@ -1,4 +1,8 @@
 /* Style sheet for THE PSYCHOPATHOLOGY OF EVERYDAY THINGS exercise */
+:root {
+    font-size: 18px;
+    line-height: 1.3;
+}
 * {
     scroll-behavior: smooth;
 }
@@ -6,25 +10,39 @@
 body {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    font-family: 'Arapey', serif;
-    line-height: 1.3;
+    font-family: 'Arapey', serif, Arial, Helvetica, sans-serif;
+    margin: 10vh;
 }
 
+h2 {
+    font-size: 1.5rem;
+    margin:  0;
+}
+h1, h2 {
+    margin-bottom: 1rem;
+}
 
 nav {
     position: fixed;
 }
 
 section {
-    
+    background-color: rgb(245, 245, 245);
+    border: solid rgba(0, 0, 0, 0.054) 1px;
+    box-shadow:-2px 2px 5px rgba(0, 0, 0, 0.245);
+    padding: 50px;
+    margin-bottom: 30px;
     
     /*Width & height of a DINA4 sheet at 150ppi*/
-    width: 1240;
-    height: 1755;
-    border: solid black 1px;
-    padding: 50px;
+    /* width: 1240px;
+    height: 1755px; */
 
     /*Width & height of a DINA4 sheet at 72ppi*/
-    /* width: 595px;
-    height: 842px; */
+    width: 595px;
+    height: 842px;
 }
+
+p {
+    margin-block-start: 0;
+}
+
